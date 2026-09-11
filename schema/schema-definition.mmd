@@ -1,0 +1,35 @@
+erDiagram
+  players {
+    int player_id PK
+    varchar name
+  }
+
+  matches {
+    int match_id PK
+    varchar name
+    boolean activity_flag
+    int match_number
+  }
+
+  match_participants {
+    int match_id FK, PK
+    int player_id FK, PK
+    timestamp timestamp
+    int score
+  }
+
+  matches ||--|{ match_participants : "is"
+  players ||--|{ match_participants : "has"
+
+  game_modes {
+    int game_mode_id PK
+    varchar name
+  }
+
+  match_modes {
+    int match_id FK, PK
+    int game_mode_id FK, PK
+  }
+
+  matches ||--|{ match_modes : "is"
+  game_modes ||--|{ match_modes : "has"
