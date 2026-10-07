@@ -68,3 +68,4 @@ _The commands to create the schema and execute a query. Assume the reader has a 
 |      | 2026SEP11 | Basic model doc with minimal attributes. |
 |      |           | Unit 1 analysis.                         |
 | 2    | 2026SEP23 | Added DDL schema and Unit 2 analysis.    |
+| 3    | 2026OCT07 | Added Unit 3 queries and analysis.       |
