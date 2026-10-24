@@ -42,7 +42,27 @@ The schema consists of five tables:
 
 ## Query Catalogue
 
-_Per unit, a short table listing the queries and the business question each answers, linked to the .sql files._
+### [Unit 4 Task 1](queries/unit4/q4_1.sql)
+
+* 4.1.1 Find metrics on match scores including count, total, average, minimum and
+maximum, and number of distinct players. Don't include scores where the player
+didn't finish because their recorded score will be 0 affecting the average.
+
+* 4.1.2 Find number of participants and average score for each match, sorted from
+most participants to least.
+
+* 4.1.3 Filter query 4.1.2 to matches with at least 10 players.
+
+* 4.1.4 Find number of participants and average score for each match and region.
+
+### [Unit 4 Task 2](queries/unit4/q4_2.sql)
+
+* 4.2A Find number of participants and number of failures for each match.
+
+* 4.2B Find subtotals and grand totals of number of participants and number of
+failures for each region.
+
+* 4.2C Find matches with a number of participants greater than average.
 
 ## Technical Highlights
 
