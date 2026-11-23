@@ -246,7 +246,7 @@ To create and load the database:
 % psql -d ex603_data -f gaming.sql
 ```
 To execute a query, use a database visualizer such as DataGrip and open the
-query files found in `query` folder.
+query files found in `queries` folder.
 
 ## History
 
